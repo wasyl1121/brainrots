@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt — Nasz zespół</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="logo">Nasz zespół</div>
+    <nav>
+      <a href="index.html">Strona główna</a>
+      <a href="o-nas.html">O nas</a>
+      <a href="kontakt.html" class="active">Kontakt</a>
+    </nav>
+  </header>
+
+  <main class="container">
+
+    <h1>Kontakt</h1>
+    <p>Napisz do nas — chętnie odpowiemy na pytania.</p>
+
+    <form class="contact-form">
+
+      <label for="imie">Imię</label>
+      <input type="text" id="imie" name="imie" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="wiadomosc">Wiadomość</label>
+      <textarea id="wiadomosc" name="wiadomosc" rows="5" required></textarea>
+
+      <button type="submit" class="btn">Wyślij</button>
+
+    </form>
+
+    <section class="info">
+      <h2>Inne sposoby kontaktu</h2>
+      <ul>
+        <li>📧 nasz-zespol@example.com</li>
+        <li>📍 ul. Szkolna 1, Miasto</li>
+        <li>🐙 <a href="https://github.com/" target="_blank">GitHub zespołu</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Nasz zespół. Projekt szkolny — 1. klasa technikum.</p>
+  </footer>
+
+</body>
+</html>
